@@ -128,8 +128,29 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 .skill-description{
     color:#757575;
 }
-.resume-collam-title{
+.resume-item-title{
+    margin-bottom: 10px;
+}
+.resume-item-institue{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-column-title{
     color:#474747;
 font-size: 30px;
 font-weight: 700;
+}
+.resum-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description, .resume-item-institue{
+    color:#757575;
+}
+.resum-container hr{
+    margin: 3opx;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
